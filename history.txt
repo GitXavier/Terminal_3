@@ -1,0 +1,8 @@
+ 1508  grep "France,2019,PHP" < wilders.csv | wc -l > php_france_2019.csv
+ 1509  grep JavaScript wilders.csv > wildersJs.csv
+ 1510  grep Toulouse wildersJs.csv > wildersToulouse.csv
+ 1511  grep Biarritz wildersJs.csv > wildersBiarritz.csv
+ 1512  cat wildersToulouse.csv wildersBiarritz.csv | sort -u > javascript_biarritz_toulouse.csv
+ 1513  history > historyTmp.txt
+ 1514  tail -n 9 historyTmp.txt > history.txt
+ 1515  history > historyTmp.txt
